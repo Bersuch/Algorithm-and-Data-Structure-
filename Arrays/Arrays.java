@@ -42,6 +42,13 @@ public class Arrays {
 			a[a.length -1 -i] = temp;
 		}
 		
+		// Shuffle Array
+		for(int i = 0; i < a.length; i++) {
+			int r = i + StdRandom.uniform(a.length - i);
+			int temp = a[i];
+			a[i] = a[r];
+			a[r] = temp;
+		}
 	}
 
 }
