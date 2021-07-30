@@ -1,1 +1,1 @@
-# Algorithm-and-Data-Structure-
+Collection of every possible Example of Algorithms and Data Structures.  
